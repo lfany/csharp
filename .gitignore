@@ -260,4 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 
-**/*.Resources/Resource.Designer.cs
+**/Resources/Resource.Designer.cs
