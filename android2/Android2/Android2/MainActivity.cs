@@ -16,10 +16,12 @@ namespace Android2
 
             // Set our view from the "main" layout resource
             // SetContentView (Resource.Layout.Main);
+            SetContentView(Resource.Layout.Main);
 
+            // test log & print
             Console.WriteLine("Hello world");
             Console.Write("~~~~\n");
-            Log.Verbose(TAG, "log test");
+            Log.Verbose(TAG, "log test"); 
         }
     }
 }
